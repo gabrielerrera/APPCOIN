@@ -3,7 +3,6 @@ import { View, ScrollView, Text, StyleSheet, StatusBar, TouchableOpacity } from 
 
 import api from './services/api'
 
-
 export default function App() {
   const [prices, setPrices] = useState([]);
 
